@@ -1,5 +1,5 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +9,11 @@
 :root {
   --bg: #ffffff;
   --text: #111111;
+
   --beige: #d3b19a;
   --aqua: #70b3b1;
   --pink: #d05fa2;
+
   --radius-card: 1.25rem;
 }
 
@@ -23,6 +25,7 @@ body {
 }
 
 /* SECTION */
+
 .trusted-section {
   width: min(76.5rem, 90%);
   margin-inline: auto;
@@ -37,6 +40,7 @@ body {
 }
 
 /* GRID */
+
 .cards-container {
   margin-top: 5em;
   display: grid;
@@ -45,6 +49,7 @@ body {
 }
 
 /* CARD */
+
 .card {
   min-width: 0;
 }
@@ -69,6 +74,7 @@ body {
 }
 
 /* IMAGE */
+
 .imgBox {
   position: absolute;
   inset: 0;
@@ -81,12 +87,15 @@ body {
 }
 
 /* ICON CUTOUT */
+
 .icon {
   position: absolute;
   right: -0.375rem;
   bottom: -0.375rem;
+
   width: 6rem;
   height: 6rem;
+
   background: var(--bg);
   border-top-left-radius: 50%;
 }
@@ -95,12 +104,16 @@ body {
 .icon::before {
   content: "";
   position: absolute;
+
   bottom: 0.375rem;
   left: -1.25rem;
+
   width: 1.25rem;
   height: 1.25rem;
+
   background: transparent;
   border-bottom-right-radius: 1.25rem;
+
   box-shadow: 0.313rem 0.313rem 0 0.313rem var(--bg);
 }
 
@@ -108,23 +121,31 @@ body {
 .icon::after {
   content: "";
   position: absolute;
+
   top: -1.25rem;
   right: 0.375rem;
+
   width: 1.25rem;
   height: 1.25rem;
+
   background: transparent;
   border-bottom-right-radius: 1.25rem;
+
   box-shadow: 0.313rem 0.313rem 0 0.313rem var(--bg);
 }
 
 /* BUTTON */
+
 .iconBox {
   position: absolute;
   inset: 0.625rem;
+
   border-radius: 50%;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   text-decoration: none;
   transition: transform 0.3s ease;
 }
@@ -151,6 +172,7 @@ body {
 }
 
 /* CONTENT */
+
 .content {
   padding: 0.938rem 0.625rem;
 }
@@ -168,8 +190,10 @@ body {
 }
 
 /* TAGS */
+
 .content ul {
   list-style: none;
+
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -198,5 +222,3 @@ body {
   background: var(--pink);
   color: #69204e;
 }
-
-/*# sourceMappingURL=style.css.map */

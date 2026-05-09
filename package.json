@@ -1,0 +1,29 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Proyecto base para estructura web con HTML, SCSS, JS e imágenes organizadas.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "scss": "sass --watch assets/scss/style.scss:assets/css/style.css --style=expanded",
+    "scss:build": "sass assets/scss/style.scss:assets/css/style.css --style=compressed --no-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeremy0728/project1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Jeremy0728/project1/issues"
+  },
+  "homepage": "https://github.com/Jeremy0728/project1#readme",
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}
+
